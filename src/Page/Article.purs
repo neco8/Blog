@@ -1,10 +1,11 @@
-module Article where
+module Page.Article where
 
 import Prelude
-import MyCSS as C
 import Data.Const (Const)
 import Halogen as H
 import Halogen.HTML as HH
+import MyCSS as C
+import Type.Proxy (Proxy(..))
 
 -- css
 css :: C.CSS
@@ -19,3 +20,8 @@ articleComponent =
     , render: const $ HH.text "article"
     , eval: H.mkEval H.defaultEval
     }
+
+_articleComponent = Proxy :: Proxy "articleComponent"
+
+type Slot r
+  = ( articleComponent :: H.Slot (Const Void) Void Unit | r )

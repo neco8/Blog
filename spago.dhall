@@ -17,6 +17,7 @@ to generate this file without the comments in this block.
   , "css"
   , "effect"
   , "either"
+  , "foldable-traversable"
   , "halogen"
   , "halogen-css"
   , "maybe"
@@ -25,6 +26,7 @@ to generate this file without the comments in this block.
   , "psci-support"
   , "quickcheck"
   , "tuples"
+  , "web-dom"
   ]
 , packages = ./packages.dhall
 , sources = [ "src/**/*.purs", "test/**/*.purs" ]
