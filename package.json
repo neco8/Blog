@@ -1,0 +1,19 @@
+{
+  "name": "blog",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "neco8",
+  "license": "MIT",
+  "scripts": {
+    "build": "spago bundle-app --watch",
+    "serve": "yarn parcel serve public/index.html"
+  },
+  "dependencies": {
+    "@getbase/base": "^5.2.0",
+    "the-new-css-reset": "^1.7.2"
+  },
+  "devDependencies": {
+    "parcel": "^2.6.2",
+    "typescript": "^4.7.4"
+  }
+}
