@@ -6,7 +6,7 @@
   "license": "MIT",
   "scripts": {
     "build": "spago bundle-app --watch",
-    "serve": "yarn parcel serve public/index.html"
+    "serve": "yarn parcel serve index.html"
   },
   "dependencies": {
     "@getbase/base": "^5.2.0",
