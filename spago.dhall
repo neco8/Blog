@@ -16,7 +16,6 @@ to generate this file without the comments in this block.
   , "css"
   , "effect"
   , "halogen"
-  , "markdown"
   , "prelude"
   , "psci-support"
   ]
